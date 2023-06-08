@@ -61,11 +61,12 @@ body {
   align-items: center;
   width: 50%;
 }
-input.item-text{
-    width: 90%;
-    background: none;
-    border: none;
-    font-size: 18px;
+
+input.item-text {
+  width: 90%;
+  background: none;
+  border: none;
+  font-size: 18px;
 }
 
 .enter-btn {
@@ -111,8 +112,7 @@ input.item-text{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-      margin-bottom: 40px;
-
+  margin-bottom: 40px;
 }
 
 .todo-list {
@@ -134,7 +134,7 @@ input.item-text{
 }
 
 .check-text {
-  width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 8px;
