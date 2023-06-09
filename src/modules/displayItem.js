@@ -7,7 +7,7 @@ export let arrayOfTasks = JSON.parse(localStorage.getItem('arrayOfTasks')) || []
 
 // Function to display tasks
 export const displayTasks = () => {
-  toDoList.innerHTML = ''; 
+  toDoList.innerHTML = '';
   arrayOfTasks.forEach((todo) => {
     const element = createTaskElement(todo);
     toDoList.appendChild(element);
@@ -38,5 +38,5 @@ export const deleteTask = (indexVal) => {
     return task;
   });
   localStorage.setItem('arrayOfTasks', JSON.stringify(arrayOfTasks));
-  displayTasks(); 
+  displayTasks();
 };
