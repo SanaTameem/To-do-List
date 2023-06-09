@@ -87,7 +87,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - cd Desktop
-- git clone https://github.com/Chandan-devs-tech/To-Do-list.git
+- git clone https://github.com/SanaTameem/To-do-List.git
 
 ### Install
 
@@ -105,7 +105,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-I have deployed this project using: Github pages
+I have deployed this project using: gh pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +125,6 @@ I have deployed this project using: Github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] *[Project 2: Add and remove items.]*
 - [ ] *[Project 3: Interactive list.]*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
