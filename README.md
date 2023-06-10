@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://SanaTameem.github.io/To-do-List)
+- [Live Demo Link](https://sanatameem.github.io/To-do-List/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
