@@ -52,3 +52,9 @@ export const deleteTask = (indexVal) => {
 };
 // Event listener
 enterBtn.addEventListener('click', addTask);
+toDoInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    addTask();
+  }
+});
