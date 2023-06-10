@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/SanaTameem/To-do-List#readme",
   "devDependencies": {
+    "@hint/utils-network": "^1.0.25",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
     "eslint": "^7.32.0",
@@ -37,11 +38,10 @@
     "stylelint-scss": "^3.21.0",
     "webpack": "^5.85.1",
     "webpack-cli": "^5.1.3",
-    "webpack-dev-server": "^4.15.0",
-    "@hint/utils-network": "^1.0.25"
+    "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
-    "node-fetch": "^3.3.1"
+    "node-fetch": "^2.6.7"
   }
 }
