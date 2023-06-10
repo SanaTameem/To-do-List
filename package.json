@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/SanaTameem/To-do-List/issues"
   },
-  "homepage": "https://SanaTameem.github.io/To-do-List",
+  "homepage": "https://github.com/SanaTameem/To-do-List#readme",
   "devDependencies": {
     "@hint/utils-network": "^1.0.25",
     "babel-eslint": "^10.1.0",
