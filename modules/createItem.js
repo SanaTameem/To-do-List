@@ -38,9 +38,15 @@ export const createTaskElement = (todo) => {
   checkbox.classList.add('larger');
   //   event listener on checkbox
   checkbox.addEventListener('change', () => {
-    statusUpdate(inputText, checkbox, element, todo);
-    localStorage.setItem('arrayOfTasks', JSON.stringify(arrayOfTasks));
+    statusUpdate(arrayOfTasks, inputText, checkbox, element, todo);
   });
+  // keeping the state of checkbox and input as it is:
+  if (todo.completed) {
+    inputText.classList.toggle('completed');
+    inputText.classList.toggle('line-through');
+    checkbox.checked = true;
+  }
+
   // clear all event listener
   clearAllBtn.addEventListener('click', clearAll);
   // appending checkbox and text input to sub div
