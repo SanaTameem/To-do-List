@@ -42,6 +42,7 @@
 - JavaScript
 - Linters
 - Webpack
+- Test
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -118,6 +119,11 @@ I have deployed this project using: gh pages
 - GitHub: [@githubhandle](https://github.com/SanaTameem)
 - Twitter: [@twitterhandle](https://twitter.com/sana_tameem)
 - LinkedIn: [LinkedIn](http://linkedin.com/in/sana-tameem-a63b55240)
+
+👤 *Innocent Ndahimana*
+
+- GitHub: [@innocent259](https://github.com/Innocent259)
+- LinkedIn: [Ndahimana Innocent](https://www.linkedin.com/in/innocent259/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
