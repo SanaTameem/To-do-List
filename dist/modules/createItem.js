@@ -1,18 +1,17 @@
 // eslint-disable-next-line
 import { deleteTask, arrayOfTasks, clearAll } from './displayItem.js';
 import statusUpdate from './statusUpdate.js';
-
 const clearAllBtn = document.querySelector('.clear-btn');
 
 // Function to create a Font Awesome icon
-export const createFontAwesomeIcon = (iconClass) => {
+export const createFontAwesomeIcon = iconClass => {
   const icon = document.createElement('i');
   icon.classList.add('fa-regular');
   icon.classList.add(iconClass);
   return icon;
 };
 // Function to create a task element
-export const createTaskElement = (todo) => {
+export const createTaskElement = todo => {
   const element = document.createElement('div');
   element.classList.add('todo-item');
   const attr = document.createAttribute('data-id');
@@ -27,7 +26,7 @@ export const createTaskElement = (todo) => {
   inputText.classList.add('item-text');
   inputText.value = todo.description;
   // event listener for editing item
-  inputText.addEventListener('blur', (e) => {
+  inputText.addEventListener('blur', e => {
     const newInputValue = e.target.value;
     todo.description = newInputValue;
     localStorage.setItem('arrayOfTasks', JSON.stringify(arrayOfTasks));

@@ -8,7 +8,7 @@ export let arrayOfTasks = JSON.parse(localStorage.getItem('arrayOfTasks')) || []
 // Function to display tasks
 export const displayTasks = () => {
   toDoList.innerHTML = '';
-  arrayOfTasks.forEach((todo) => {
+  arrayOfTasks.forEach(todo => {
     const element = createTaskElement(todo);
     toDoList.appendChild(element);
   });
@@ -21,7 +21,7 @@ export const addTask = () => {
     const task = {
       description: toDoInput.value,
       completed: false,
-      index: arrayOfTasks.length + 1,
+      index: arrayOfTasks.length + 1
     };
     arrayOfTasks.push(task);
     localStorage.setItem('arrayOfTasks', JSON.stringify(arrayOfTasks));
@@ -31,7 +31,7 @@ export const addTask = () => {
 
 // clearAll
 export const clearAll = () => {
-  arrayOfTasks = arrayOfTasks.filter((abc) => abc.completed === false);
+  arrayOfTasks = arrayOfTasks.filter(abc => abc.completed === false);
   arrayOfTasks = arrayOfTasks.map((task, index) => {
     task.index = index + 1;
     return task;
@@ -41,8 +41,8 @@ export const clearAll = () => {
 };
 
 // Function to delete a task
-export const deleteTask = (indexVal) => {
-  arrayOfTasks = arrayOfTasks.filter((task) => task.index !== indexVal);
+export const deleteTask = indexVal => {
+  arrayOfTasks = arrayOfTasks.filter(task => task.index !== indexVal);
   arrayOfTasks = arrayOfTasks.map((task, index) => {
     task.index = index + 1;
     return task;
@@ -52,7 +52,7 @@ export const deleteTask = (indexVal) => {
 };
 // Event listener
 enterBtn.addEventListener('click', addTask);
-toDoInput.addEventListener('keydown', (e) => {
+toDoInput.addEventListener('keydown', e => {
   if (e.key === 'Enter') {
     e.preventDefault();
     addTask();
