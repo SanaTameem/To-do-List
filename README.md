@@ -132,6 +132,8 @@ I have deployed this project using: gh pages
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] *[Project 3: Interactive list.]*
+- [ ] *[Adding integrated tests for project.]*
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
