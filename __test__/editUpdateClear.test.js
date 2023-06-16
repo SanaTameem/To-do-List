@@ -49,3 +49,9 @@ describe('Update completed status', () => {
     expect(updateTask).toBeTruthy();
   });
 });
+describe('Clear All function', () => {
+  test('Clearing all the completed tasks', () => {
+    const clear = clearAll();
+    expect(clear).toHaveLength(2);
+  });
+});
