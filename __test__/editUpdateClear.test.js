@@ -43,4 +43,9 @@ describe('Edit Task functions', () => {
     expect(editedItem).not.toBe(oldDescription);
   });
 });
-
+describe('Update completed status', () => {
+  test('Updating the status to completed', () => {
+    const updateTask = updateStatus();
+    expect(updateTask).toBeTruthy();
+  });
+});
