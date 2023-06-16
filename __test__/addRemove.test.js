@@ -42,6 +42,7 @@ describe('Add Task functions', () => {
     expect(toDoList.children).toHaveLength(1);
   });
 });
+
 describe('DeleteTask', () => {
   const array = [
     { description: 'Task number 1', completed: false, index: 1 },
